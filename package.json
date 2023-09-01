@@ -1,0 +1,18 @@
+{
+  "name": "socket-pruebas",
+  "version": "1.0.0",
+  "description": "Pruebas de andrés y lucho",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js"
+  },
+  "author": "SkinaTech",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
